@@ -1,5 +1,5 @@
 # low-standard-guix
-Low Standard Guix packages; those that would not be accepted without refinements
+Low Standard Guix packages; for those packages that would not be accepted by the real guix project without refinements.
 
 I wanted to add Microsoft Cascadia Code fonts package to Guix but it was pointed out that the font would need to be compiled from source, rather than just simply be copied from Microsoft's releases.
 I may (or someone else) may do that later - the original package that just copies the files is kept here.
