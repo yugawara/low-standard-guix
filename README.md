@@ -33,7 +33,7 @@ Add to `channels.scm` as below (see the last section, low-standard-guix:
     (branch "master"))
   %default-channels)
 ```
-and execute `guix pull`
+execute `guix pull --disable-authentication`
 ```
 ~/.config/guix$ guix pull --disable-authentication
 Updating channel 'guix' from Git repository at 'https://github.com/guix-mirror/guix.git'...
@@ -52,3 +52,12 @@ Building from these channels:
 Computing Guix derivation for 'x86_64-linux'... \
 nothing to be done
 ```
+execute: `sudo reboot`
+exeute: `guix install font-cascadia-code`
+execute: `sudo reboot`
+
+Discalimer
+==========
+Probably, the `sudo reboot` part can be improved - there are probably better, less intrusive ways to achieve the same effect.
+
+
