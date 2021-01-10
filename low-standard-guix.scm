@@ -1,4 +1,4 @@
-(define-module (gnu packages fonts)
+(define-module (low-standard-guix)
   #:use-module (ice-9 regex)
   #:use-module (guix utils)
   #:use-module ((guix licenses) #:prefix license:)
